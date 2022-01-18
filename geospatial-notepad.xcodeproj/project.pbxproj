@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0813CF8827509979002F1B83 /* NatoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0813CF8727509979002F1B83 /* NatoPicker.swift */; };
+		0813CF8A27509A9B002F1B83 /* NatoPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0813CF8927509A9B002F1B83 /* NatoPickerCell.swift */; };
+		08F638BE274FDC89008C2F75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F638BD274FDC89008C2F75 /* AppDelegate.swift */; };
+		08F638C0274FDC89008C2F75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F638BF274FDC89008C2F75 /* SceneDelegate.swift */; };
+		08F638C2274FDC89008C2F75 /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F638C1274FDC89008C2F75 /* MainMapView.swift */; };
+		08F638C5274FDC89008C2F75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F638C3274FDC89008C2F75 /* Main.storyboard */; };
+		08F638C7274FDC8B008C2F75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08F638C6274FDC8B008C2F75 /* Assets.xcassets */; };
+		08F638CA274FDC8B008C2F75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F638C8274FDC8B008C2F75 /* LaunchScreen.storyboard */; };
+		08F638D5274FDC8B008C2F75 /* geospatial_notepadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F638D4274FDC8B008C2F75 /* geospatial_notepadTests.swift */; };
+		08F638DF274FDC8B008C2F75 /* geospatial_notepadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F638DE274FDC8B008C2F75 /* geospatial_notepadUITests.swift */; };
+		08F638E1274FDC8B008C2F75 /* geospatial_notepadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F638E0274FDC8B008C2F75 /* geospatial_notepadUITestsLaunchTests.swift */; };
+		08F638EF274FDD5B008C2F75 /* ArcGIS in Frameworks */ = {isa = PBXBuildFile; productRef = 08F638EE274FDD5B008C2F75 /* ArcGIS */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08F638D1274FDC8B008C2F75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08F638B2274FDC89008C2F75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08F638B9274FDC89008C2F75;
+			remoteInfo = "geospatial-notepad";
+		};
+		08F638DB274FDC8B008C2F75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08F638B2274FDC89008C2F75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08F638B9274FDC89008C2F75;
+			remoteInfo = "geospatial-notepad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0813CF8727509979002F1B83 /* NatoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatoPicker.swift; sourceTree = "<group>"; };
+		0813CF8927509A9B002F1B83 /* NatoPickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatoPickerCell.swift; sourceTree = "<group>"; };
+		08F638BA274FDC89008C2F75 /* geospatial-notepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "geospatial-notepad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F638BD274FDC89008C2F75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08F638BF274FDC89008C2F75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		08F638C1274FDC89008C2F75 /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
+		08F638C4274FDC89008C2F75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08F638C6274FDC8B008C2F75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08F638C9274FDC8B008C2F75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08F638CB274FDC8B008C2F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08F638D0274FDC8B008C2F75 /* geospatial-notepadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "geospatial-notepadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F638D4274FDC8B008C2F75 /* geospatial_notepadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geospatial_notepadTests.swift; sourceTree = "<group>"; };
+		08F638DA274FDC8B008C2F75 /* geospatial-notepadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "geospatial-notepadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F638DE274FDC8B008C2F75 /* geospatial_notepadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geospatial_notepadUITests.swift; sourceTree = "<group>"; };
+		08F638E0274FDC8B008C2F75 /* geospatial_notepadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geospatial_notepadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08F638B7274FDC89008C2F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F638EF274FDD5B008C2F75 /* ArcGIS in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F638CD274FDC8B008C2F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F638D7274FDC8B008C2F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08F638B1274FDC89008C2F75 = {
+			isa = PBXGroup;
+			children = (
+				08F638BC274FDC89008C2F75 /* geospatial-notepad */,
+				08F638D3274FDC8B008C2F75 /* geospatial-notepadTests */,
+				08F638DD274FDC8B008C2F75 /* geospatial-notepadUITests */,
+				08F638BB274FDC89008C2F75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08F638BB274FDC89008C2F75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08F638BA274FDC89008C2F75 /* geospatial-notepad.app */,
+				08F638D0274FDC8B008C2F75 /* geospatial-notepadTests.xctest */,
+				08F638DA274FDC8B008C2F75 /* geospatial-notepadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08F638BC274FDC89008C2F75 /* geospatial-notepad */ = {
+			isa = PBXGroup;
+			children = (
+				08F638BD274FDC89008C2F75 /* AppDelegate.swift */,
+				08F638BF274FDC89008C2F75 /* SceneDelegate.swift */,
+				08F638C1274FDC89008C2F75 /* MainMapView.swift */,
+				08F638C3274FDC89008C2F75 /* Main.storyboard */,
+				0813CF8727509979002F1B83 /* NatoPicker.swift */,
+				0813CF8927509A9B002F1B83 /* NatoPickerCell.swift */,
+				08F638C6274FDC8B008C2F75 /* Assets.xcassets */,
+				08F638C8274FDC8B008C2F75 /* LaunchScreen.storyboard */,
+				08F638CB274FDC8B008C2F75 /* Info.plist */,
+			);
+			path = "geospatial-notepad";
+			sourceTree = "<group>";
+		};
+		08F638D3274FDC8B008C2F75 /* geospatial-notepadTests */ = {
+			isa = PBXGroup;
+			children = (
+				08F638D4274FDC8B008C2F75 /* geospatial_notepadTests.swift */,
+			);
+			path = "geospatial-notepadTests";
+			sourceTree = "<group>";
+		};
+		08F638DD274FDC8B008C2F75 /* geospatial-notepadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08F638DE274FDC8B008C2F75 /* geospatial_notepadUITests.swift */,
+				08F638E0274FDC8B008C2F75 /* geospatial_notepadUITestsLaunchTests.swift */,
+			);
+			path = "geospatial-notepadUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08F638B9274FDC89008C2F75 /* geospatial-notepad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08F638E4274FDC8B008C2F75 /* Build configuration list for PBXNativeTarget "geospatial-notepad" */;
+			buildPhases = (
+				08F638B6274FDC89008C2F75 /* Sources */,
+				08F638B7274FDC89008C2F75 /* Frameworks */,
+				08F638B8274FDC89008C2F75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "geospatial-notepad";
+			packageProductDependencies = (
+				08F638EE274FDD5B008C2F75 /* ArcGIS */,
+			);
+			productName = "geospatial-notepad";
+			productReference = 08F638BA274FDC89008C2F75 /* geospatial-notepad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08F638CF274FDC8B008C2F75 /* geospatial-notepadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08F638E7274FDC8B008C2F75 /* Build configuration list for PBXNativeTarget "geospatial-notepadTests" */;
+			buildPhases = (
+				08F638CC274FDC8B008C2F75 /* Sources */,
+				08F638CD274FDC8B008C2F75 /* Frameworks */,
+				08F638CE274FDC8B008C2F75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08F638D2274FDC8B008C2F75 /* PBXTargetDependency */,
+			);
+			name = "geospatial-notepadTests";
+			productName = "geospatial-notepadTests";
+			productReference = 08F638D0274FDC8B008C2F75 /* geospatial-notepadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08F638D9274FDC8B008C2F75 /* geospatial-notepadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08F638EA274FDC8B008C2F75 /* Build configuration list for PBXNativeTarget "geospatial-notepadUITests" */;
+			buildPhases = (
+				08F638D6274FDC8B008C2F75 /* Sources */,
+				08F638D7274FDC8B008C2F75 /* Frameworks */,
+				08F638D8274FDC8B008C2F75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08F638DC274FDC8B008C2F75 /* PBXTargetDependency */,
+			);
+			name = "geospatial-notepadUITests";
+			productName = "geospatial-notepadUITests";
+			productReference = 08F638DA274FDC8B008C2F75 /* geospatial-notepadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08F638B2274FDC89008C2F75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					08F638B9274FDC89008C2F75 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					08F638CF274FDC8B008C2F75 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 08F638B9274FDC89008C2F75;
+					};
+					08F638D9274FDC8B008C2F75 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 08F638B9274FDC89008C2F75;
+					};
+				};
+			};
+			buildConfigurationList = 08F638B5274FDC89008C2F75 /* Build configuration list for PBXProject "geospatial-notepad" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08F638B1274FDC89008C2F75;
+			packageReferences = (
+				08F638ED274FDD5B008C2F75 /* XCRemoteSwiftPackageReference "arcgis-runtime-ios" */,
+			);
+			productRefGroup = 08F638BB274FDC89008C2F75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08F638B9274FDC89008C2F75 /* geospatial-notepad */,
+				08F638CF274FDC8B008C2F75 /* geospatial-notepadTests */,
+				08F638D9274FDC8B008C2F75 /* geospatial-notepadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08F638B8274FDC89008C2F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F638CA274FDC8B008C2F75 /* LaunchScreen.storyboard in Resources */,
+				08F638C7274FDC8B008C2F75 /* Assets.xcassets in Resources */,
+				08F638C5274FDC89008C2F75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F638CE274FDC8B008C2F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F638D8274FDC8B008C2F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08F638B6274FDC89008C2F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0813CF8A27509A9B002F1B83 /* NatoPickerCell.swift in Sources */,
+				08F638C2274FDC89008C2F75 /* MainMapView.swift in Sources */,
+				08F638BE274FDC89008C2F75 /* AppDelegate.swift in Sources */,
+				08F638C0274FDC89008C2F75 /* SceneDelegate.swift in Sources */,
+				0813CF8827509979002F1B83 /* NatoPicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F638CC274FDC8B008C2F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F638D5274FDC8B008C2F75 /* geospatial_notepadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F638D6274FDC8B008C2F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F638DF274FDC8B008C2F75 /* geospatial_notepadUITests.swift in Sources */,
+				08F638E1274FDC8B008C2F75 /* geospatial_notepadUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08F638D2274FDC8B008C2F75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08F638B9274FDC89008C2F75 /* geospatial-notepad */;
+			targetProxy = 08F638D1274FDC8B008C2F75 /* PBXContainerItemProxy */;
+		};
+		08F638DC274FDC8B008C2F75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08F638B9274FDC89008C2F75 /* geospatial-notepad */;
+			targetProxy = 08F638DB274FDC8B008C2F75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08F638C3274FDC89008C2F75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08F638C4274FDC89008C2F75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08F638C8274FDC8B008C2F75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08F638C9274FDC8B008C2F75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08F638E2274FDC8B008C2F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08F638E3274FDC8B008C2F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08F638E5274FDC8B008C2F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CA79GA98RV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "geospatial-notepad/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.geospatial-notepad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08F638E6274FDC8B008C2F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CA79GA98RV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "geospatial-notepad/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.geospatial-notepad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08F638E8274FDC8B008C2F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CA79GA98RV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.geospatial-notepadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geospatial-notepad.app/geospatial-notepad";
+			};
+			name = Debug;
+		};
+		08F638E9274FDC8B008C2F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CA79GA98RV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.geospatial-notepadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geospatial-notepad.app/geospatial-notepad";
+			};
+			name = Release;
+		};
+		08F638EB274FDC8B008C2F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CA79GA98RV;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.geospatial-notepadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "geospatial-notepad";
+			};
+			name = Debug;
+		};
+		08F638EC274FDC8B008C2F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CA79GA98RV;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.geospatial-notepadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "geospatial-notepad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08F638B5274FDC89008C2F75 /* Build configuration list for PBXProject "geospatial-notepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F638E2274FDC8B008C2F75 /* Debug */,
+				08F638E3274FDC8B008C2F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08F638E4274FDC8B008C2F75 /* Build configuration list for PBXNativeTarget "geospatial-notepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F638E5274FDC8B008C2F75 /* Debug */,
+				08F638E6274FDC8B008C2F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08F638E7274FDC8B008C2F75 /* Build configuration list for PBXNativeTarget "geospatial-notepadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F638E8274FDC8B008C2F75 /* Debug */,
+				08F638E9274FDC8B008C2F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08F638EA274FDC8B008C2F75 /* Build configuration list for PBXNativeTarget "geospatial-notepadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F638EB274FDC8B008C2F75 /* Debug */,
+				08F638EC274FDC8B008C2F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		08F638ED274FDD5B008C2F75 /* XCRemoteSwiftPackageReference "arcgis-runtime-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/esri/arcgis-runtime-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		08F638EE274FDD5B008C2F75 /* ArcGIS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08F638ED274FDD5B008C2F75 /* XCRemoteSwiftPackageReference "arcgis-runtime-ios" */;
+			productName = ArcGIS;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 08F638B2274FDC89008C2F75 /* Project object */;
+}
